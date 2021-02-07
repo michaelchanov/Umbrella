@@ -1,0 +1,53 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:london/images/"
+    }
+  },
+  "photos": [
+    {
+      "attribution": {
+        "license": "Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",
+        "photographer": "User:Colin",
+        "site": "Flickr",
+        "source": "https://www.flickr.com/photos/user-colin/16492503186/"
+      },
+      "image": {
+        "mobile": "https://d13k13wj6adfdf.cloudfront.net/urban_areas/london-12fdfd9fcf.jpg",
+        "web": "https://d13k13wj6adfdf.cloudfront.net/urban_areas/london_web-e8502ca139.jpg"
+      }
+    }
+  ]
+}

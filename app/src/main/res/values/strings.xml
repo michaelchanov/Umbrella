@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">Umbrella</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="minTemp">%s °  </string>
+    <string name="maxTemp">%s °  </string>
+    <string name="theTemp">%s °  </string>
+    <string name="humidity">%s %  </string>
+    <string name="airPressure">%s  </string>
+    <string name="windSpeed">%s m/s  </string>
     <string name="name">Username</string>
     <string name="last_name">Last name</string>
+    <string name="city">Change city</string>
     <string name="umbrella">Umbrella</string>
     <string name="text_description">Носите все самое лучшее, или не носите ничего, шарф, куртка</string>
 </resources>

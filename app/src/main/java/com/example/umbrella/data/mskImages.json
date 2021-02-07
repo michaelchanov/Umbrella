@@ -1,0 +1,99 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "href": "https://developers.teleport.org/api/resources/Location/#!/relations/{rel}/",
+        "name": "location",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/City/#!/relations/{rel}/",
+        "name": "city",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/UrbanArea/#!/relations/{rel}/",
+        "name": "ua",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Country/#!/relations/{rel}/",
+        "name": "country",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Admin1Division/#!/relations/{rel}/",
+        "name": "a1",
+        "templated": true
+      },
+      {
+        "href": "https://developers.teleport.org/api/resources/Timezone/#!/relations/{rel}/",
+        "name": "tz",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:moscow/"
+    },
+    "ua:admin1-divisions": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RU/admin1_divisions/geonames:48/",
+        "name": "Moscow"
+      },
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RU/admin1_divisions/geonames:47/",
+        "name": "Moscow Oblast"
+      }
+    ],
+    "ua:cities": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:moscow/cities/"
+    },
+    "ua:continent": {
+      "href": "https://api.teleport.org/api/continents/geonames:EU/",
+      "name": "Europe"
+    },
+    "ua:countries": [
+      {
+        "href": "https://api.teleport.org/api/countries/iso_alpha2:RU/",
+        "name": "Russia"
+      }
+    ],
+    "ua:details": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:moscow/details/"
+    },
+    "ua:identifying-city": {
+      "href": "https://api.teleport.org/api/cities/geonameid:524901/",
+      "name": "Moscow"
+    },
+    "ua:images": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:moscow/images/"
+    },
+    "ua:primary-cities": [
+      {
+        "href": "https://api.teleport.org/api/cities/geonameid:524901/",
+        "name": "Moscow"
+      }
+    ],
+    "ua:salaries": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:moscow/salaries/"
+    },
+    "ua:scores": {
+      "href": "https://api.teleport.org/api/urban_areas/slug:moscow/scores/"
+    }
+  },
+  "bounding_box": {
+    "latlon": {
+      "east": 38.43,
+      "north": 56.2,
+      "south": 55.123,
+      "west": 36.8
+    }
+  },
+  "continent": "Europe",
+  "full_name": "Moscow, Russia",
+  "is_government_partner": false,
+  "name": "Moscow",
+  "slug": "moscow",
+  "teleport_city_url": "https://teleport.org/cities/moscow/",
+  "ua_id": "ucfv0"
+}

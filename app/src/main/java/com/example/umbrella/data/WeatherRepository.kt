@@ -11,13 +11,19 @@ class WeatherRepository: CoroutineScope {
     override val coroutineContext: CoroutineContext = Dispatchers.IO
 
     private val weatherApi = Retrofit.Builder()
-        .baseUrl("https://www.metaweather.com//")
+        .baseUrl("https://www.metaweather.com")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
         .create(WeatherAPI::class.java)
 
+
+
     fun getWeather() = async {
         weatherApi.getWeather()
+            .execute()
+            .body()
+            ?.weathers
     }
+
 
 }
